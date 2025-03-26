@@ -53,7 +53,7 @@ function App() {
   return (
     <div className={"grid-container"}>
       {grid.map((row, rowIndex) => (
-        <div key={rowIndex} className={"gridrow"}>
+        <div key={rowIndex} className={"grid-row"}>
           {row.map((pixel, colIndex) => (
             <LEDPixel
               key={`${rowIndex} ${colIndex}`}
