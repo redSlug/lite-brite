@@ -1,4 +1,3 @@
-import { flushSync } from "react-dom";
 import { useState } from "react";
 import "./App.css";
 
@@ -20,9 +19,7 @@ function pixelClickHandler(
   console.log("setting value=", row, column);
   const newGrid = JSON.parse(JSON.stringify(grid));
   newGrid[row][column] = { color: "#ffffff" };
-  flushSync(() => {
-    setGrid(newGrid);
-  });
+  setGrid(newGrid);
 }
 
 function LEDPixel({ color, onClick }: LEDProps) {
