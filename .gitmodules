@@ -1,6 +1,3 @@
-[submodule "rpi-matrix-pixelpusher"]
-	path = rpi-matrix-pixelpusher
-	url = https://github.com/hzeller/rpi-matrix-pixelpusher.git
 [submodule "pi/rpi-rgb-led-matrix"]
 	path = pi/rpi-rgb-led-matrix
 	url = https://github.com/hzeller/rpi-rgb-led-matrix.git
