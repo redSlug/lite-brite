@@ -5,7 +5,7 @@
 
 
 LITE_BRITE_URL="https://bradley--a25faefc8bca4506bcb633d2c1385f61.web.val.run/api/ppm/lite-brite"
-POLLING_DELAY=10
+POLLING_DELAY=3
 LED_DELAY_MS=18
 WORKING_DIR=/home/pi/lite-brite/pi
 
